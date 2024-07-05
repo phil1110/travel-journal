@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #f55a5a;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-title {
+  margin: 0 0 0 7px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.085px;
+}
+
+.navbar-logo {
+  background-image: url("/icons/world.svg");
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.articles {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article {
+  min-height: 204px;
+  padding: 18px 0;
+  display: flex;
+  width: 470px;
+  align-items: center;
+  border-bottom: #f5f5f5 1px solid;
+}
+
+.article:last-of-type {
+  border-bottom: none;
+}
+
+.article-img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  object-position: center;
+  object-fit: cover;
+}
+
+.article-text {
+  margin-left: 19px;
+}
+
+.article-text > * {
+  margin: 0;
+}
+
+.article-text-location {
+  display: flex;
+  align-items: center;
+}
+
+.article-text-location > * {
+  margin: 0;
+  display: inline-block;
+}
+
+.aritcle-text-location-icon {
+  background-image: url("/icons/pin.svg");
+  color: #f55a5a;
+  width: 7px;
+  height: 9.545px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.aritcle-text-location-country {
+  margin-left: 4px;
+  color: #2b283a;
+  font-family: Inter;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.741px;
+}
+
+.article-location-link {
+  margin-left: 12px;
+  color: #918e9b;
+  font-family: Inter;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.article-text-name {
+  color: #2b283a;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 5px;
+}
+
+.article-text-date {
+  color: #2b283a;
+  font-family: Inter;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 13px;
+}
+
+.article-text-info {
+  color: #2b283a;
+  font-family: Inter;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+  margin-top: 9px;
+}
